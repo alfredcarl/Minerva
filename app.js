@@ -22,9 +22,50 @@ function setup(){
     createCanvas(canvasSize,canvasSize); 
     background(200);
     
-    // draw a koordinatessystem with colours, you might use functions fill, rect and text
-    noStroke();
 
+    noStroke() ;
+
+    fill(0,0,0)
+    rect(200,0,10,400)
+
+    fill(153,50,204)    
+    rect(200,200,200)
+
+    fill(135, 206, 250)
+    rect(200,0,200)
+
+    fill(50,205,50)
+    rect(0,200,200)
+
+    fill(255,182,193)
+    rect(0,0,200)
+
+    fill(0,0,0)
+    text("(0)",190, 200)
+
+    fill(0,0,0)
+    text("(1)",240, 200)
+
+    fill(0,0,0)
+    text("(2)",290, 200)
+
+    fill(0,0,0)
+    text("(3)",340, 200)
+
+    fill(0,0,0)
+    text("(4)",385, 200)
+
+    fill(0,0,0)
+    text("(1)",190, 160)
+
+    fill(0,0,0)
+    text("(2)",190, 110)
+
+    fill(0,0,0)
+    text("(3)",190, 60)
+
+    fill(0,0,0)
+    text("(4)",190, 10)
     
 }
 
